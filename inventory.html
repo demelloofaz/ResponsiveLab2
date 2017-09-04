@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counting Cars in Vegas Baby!!!</title>
+  <!--
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+-->
+  <script src= "bower_components\jquery\dist\jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
+  <link rel="stylesheet/less" href = ".\cars.less"/>
+  <script src="bower_components\less\dist\less.min.js" charset="UTF-8"></script>
+  <!--
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+-->
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <li><a href="index.html">Home</a></li>
+    <li class="active"><a href="inventory.html">Danny's Inventory</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+    <li><a href="about.html">About The Team</a></li>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Menu</span>
+
+<div  class="row">
+  <div class="col-4">
+    <input type="search" class="searchbox" onkeyup="mySearchFunction()" placeholder="Search Danny's Inventory" />
+  </div>
+  <div class="col-8">
+    <table id="carTable">
+      <tr class="header">
+        <th id="Desc">Description</th>
+        <th id="Price">Price</th>
+      </tr>
+      <tbody id="carTableBody"></tbody>
+    </table>
+  </div>
+</div>
+<div class="row">
+<div class="col-12">
+  <p></p>
+  </div>
+</div>
+<div class="row">
+   <div class="col-6" id="car-item">
+       <img src="Images\Corvette.jpg" alt="Corvette" width="400" height="200">
+       <h3>Chevy Corvette</h3>
+       <p>What guy would say no to owning this beautiful Corvette</p>
+    </div>
+    <div class= "col-6" id="car-item">
+    <img src="Images\Chevy Super Sport.jpg" alt="Camaro Super Sport" width="400" height="200">
+    <h3>Simply Bad Ass</h3>
+    <p>An american class the Chevy Camaro Super Sport</p>
+    </div>
+</div>
+<div class="row">
+  <div class="col-6" id="car-item">
+  <img src="Images\Shelby.jpg" alt="Shelby" width="400" height="200">
+  <h3>A total dream</h3>
+  <p>The Ford Shelby Cobra</p>
+ </div>
+    <div class="col-6" id="car-item">
+    <img src="Images\53 Ford f150 Pickup.jpg" alt="F150 Pickup" width="400" height="200">
+    <h3>A hauler that hauls!</h3>
+    <p>'53 Ford F150 Pickup Fully restored!</p>
+    </div>
+ </div>
+ <div class="row">
+   <div class="col-6" id="car-item">
+   <img src="Images\1960 Caddy.jpg" alt="1960 Caddy" width="400" height="200">
+   <h3>The Ultimate Cadillac</h3>
+   <p>Stylin 1960 Caddilac</p>
+   </div>
+   <div class="col-6" id="car-item">
+   <img src="Images\VW Bug.jpg" alt="Bug Convertible" width="400" height="200">
+   <h3>One For the ladies</h3>
+   <p>Pink VW Convertible</p>
+   </div>
+</div>
+<div class="row">
+<div class="col-12">
+    <footer>
+      <p>Count's Kustoms is located at<address>2714 S Highland Dr, Las Vegas, NV 89109</address></p>
+      <p class="textcontent">All site contents is copyright <a class="mainlink" href="http://www.countskustoms.com">Count's Kustoms</a></p>
+      <p class="smalltext">This page was generated on <time>09:25:04.123</time>.</p>
+    </footer>
+  </div>
+</div>
+    <script src="inventory.js"></script>
+    <script src="navbar.js"></script>
+</body>
+
+</html>
