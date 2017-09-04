@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counting Cars in Vegas Baby!!!</title>
+  <!--
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  -->
+  <script src= "bower_components\jquery\dist\jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
+  <link rel="stylesheet/less" href = ".\cars.less"/>
+  <script src="bower_components\less\dist\less.min.js" charset="UTF-8"></script>
+  <!--
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  -->
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="inventory.html">Danny's Inventory</a></li>
+      <li class="active"><a href="contact.html">Contact Us</a></li>
+      <li><a href="about.html">About The Team</a></li>
+    </div>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Menu</span>
+
+<div class="row">
+  <div class="col-5" align="center">
+      <h3>Counts Kustoms located in World Famous Las Vegas</h3>
+      <div align="center" class="main">
+        <img src="images/ck_map.jpg" padding = "15px" title="Welcome to Sin City" width="400">
+       <br>
+          <small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Count's+Kustoms,+South+Highland+Drive,+Las+Vegas,+NV,+United+States&amp;aq=&amp;sll=36.140344,-115.169517&amp;sspn=0.007183,0.010375&amp;ie=UTF8&amp;hq=Count's+Kustoms,&amp;hnear=S+Highland+Dr,+Las+Vegas,+Nevada&amp;t=m&amp;ll=36.140345,-115.169522&amp;spn=0.006295,0.006804" style="text-align:left">View Larger Map</a></small>
+      </div>
+  </div>
+
+  <div class="col-7">
+     <div  class="row">
+       <div class="col-12">
+         <p>Please enter your Contact info below:</p>
+       </div>
+     </div>
+    <div class="row">
+        <div class="col-6">
+          <input class="contact-field" type="text" name="fullname" id="fullname" placeholder="    Your Full Name">
+        </div>
+        <div class="col-6">
+           <input class="contact-field" type="email" name="email" id="email" placeholder="    Your Email">
+        </div>
+    </div>
+
+     <div class="row">
+       <div class="col-12">
+             <textarea name="quest"  class="contact-field" maxlength="500" placeholder="How can we help you today?"></textarea>
+       </div>
+     </div>
+
+     <div class="row">
+         <div class="col-12">
+           <button id="btnSendInfo" class="submitbutton">Send Info</button>
+          </div>
+     </div>
+</div>
+<div class="row">
+<div class="col-12">
+<footer>
+  <p>Count's Kustoms is located at<address>2714 S Highland Dr, Las Vegas, NV 89109</address></p>
+  <p class="textcontent">All site contents is copyright <a class="mainlink" href="http://www.countskustoms.com">Count's Kustoms</a></p>
+  <p class="smalltext">This page was generated on <time>09:25:04.123</time>.</p>
+</footer>
+</div>
+</div>
+  <script src="navbar.js"></script>
+  </body>
+</html>
